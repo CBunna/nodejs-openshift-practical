@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Node.js App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Node.js App</h1>
+            <p>Perfect for OpenShift deployment practice!</p>
+        </header>
+
+        <div class="health-check">
+            <button id="healthBtn" class="btn btn-secondary">Check Health Status</button>
+            <div id="healthStatus" class="status-display"></div>
+        </div>
+
+        <div class="messages-section">
+            <h2>Messages</h2>
+            
+            <div class="add-message">
+                <input type="text" id="messageInput" placeholder="Enter a new message..." maxlength="200">
+                <button id="addBtn" class="btn btn-primary">Add Message</button>
+            </div>
+
+            <div id="messagesList" class="messages-list">
+                <!-- Messages will be loaded here -->
+            </div>
+        </div>
+
+        <footer>
+            <p>Ready for OpenShift Local deployment • Node.js + Express</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
