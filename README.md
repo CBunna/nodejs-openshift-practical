@@ -17,3 +17,8 @@ oc expose svc/simple-app
 
 ## Get the route URL
 oc get route simple-app
+
+
+![image alt](https://github.com/CBunna/nodejs-openshift-practical/blob/58ccc00b24c689952fece21dc33fb260b9aa7fdc/Screenshot%202025-09-21%20at%2017.03.18.png)
+
+![image alt](https://github.com/CBunna/nodejs-openshift-practical/blob/58ccc00b24c689952fece21dc33fb260b9aa7fdc/Screenshot%202025-09-21%20at%2017.03.44.png)
